@@ -4,8 +4,12 @@ project(MY-RP6502-PROJECT C ASM)
 
 add_subdirectory(tools)
 
-add_executable(hello)
-rp6502_executable(hello)
-target_sources(hello PRIVATE
+add_executable(puzz)
+rp6502_executable(puzz)
+target_sources(puzz PRIVATE
     src/main.c
+    src/gfx.c
+    src/mouse.c
+    src/puzzle.c
+    src/menu.c
 )
