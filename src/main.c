@@ -126,7 +126,7 @@ void main() {
         xreg_vga_canvas(3);
         xreg(1, 0, 1, 1, 10, CHARACTER_STRUCT, 0); // character mode (Mode 1) on layer 0
         bytes_per_row = 160;
-        text_at(0, 10, 11, 0, "PUZZ sliding block puzzle games for the picocomputer RP5502");
+        text_at(0, 10, 11, 0, "PUZZ sliding block puzzle games for the picocomputer RP6502");
         text_at(2, 0, 11, 0, "You need a mouse to play these puzzles. Click a puzzle below, to load it.");
         text_at(3, 0, 11, 0, "Once a puzzle is displayed, left-click on a piece to move it, or right-click to");
         text_at(4, 0, 11, 0, "access the menus for: instructions, restarting, saving, quitting, etcetera.");
